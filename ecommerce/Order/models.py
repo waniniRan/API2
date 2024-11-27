@@ -9,3 +9,8 @@ class Order(models.Model):
     def __str__(self):
         return f"Order #{self.id} by {self.customer.name}"
 
+
+#in order the thing linking it to the Customer model  is the 
+#customer foreign key , the on_delete=models.CASCADE ensures that if a customer is deleted so is the order.
+#the relationship is one to many relationship because one customer has multiple orders.
+#
