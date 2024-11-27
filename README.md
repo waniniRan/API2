@@ -5,6 +5,8 @@ After cloning, you have to create your virtual environment and start up the djan
 
 The Codes needed are;
 
+This is to set up the virtual environment, then the project
+
 C:\Users\wanin\Desktop\API2\API2> python -m venv .venv
 
 C:\Users\wanin\Desktop\API2\API2> .\.venv\Scripts\Activate.ps1
