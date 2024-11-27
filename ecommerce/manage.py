@@ -23,13 +23,4 @@ if __name__ == '__main__':
 
 
 
-from ecommerce import Customer, Order
 
-
-customer= Customer.objects.create(name="John Doe", email="john.doe@example.com")
-
-
-order = Order.objects.create(customer=customer, total_amount=150.00)
-
-
-print(customer.orders.all())  # Output: <QuerySet [<Order: Order 1 by John Doe>]>
