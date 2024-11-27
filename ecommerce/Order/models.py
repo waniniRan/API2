@@ -10,6 +10,9 @@ class Order(models.Model):
         return f"Order #{self.id} by {self.customer.name}"
 
 
+class Meta:
+      app_label = 'Order' # add app name here
+
 #in order the thing linking it to the Customer model  is the 
 #customer foreign key , the on_delete=models.CASCADE ensures that if a customer is deleted so is the order.
 #the relationship is one to many relationship because one customer has multiple orders.
