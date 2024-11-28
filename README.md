@@ -26,5 +26,8 @@ C:\Users\wanin\Desktop\API2\API2> .\.venv\Scripts\Activate.ps1
 (.venv) PS C:\Users\wanin\Desktop\API2\API2\ecommerce> cd ..
 
 
+The above code is to set-up django's project, and to set up the apps for access to the models where the relationships are defined.
+
+
 
 
