@@ -5,6 +5,8 @@ After cloning, you have to create your virtual environment and start up the djan
 
 The Codes needed are;
 
+This is to set up the virtual environment, then the project
+
 C:\Users\wanin\Desktop\API2\API2> python -m venv .venv
 
 C:\Users\wanin\Desktop\API2\API2> .\.venv\Scripts\Activate.ps1
@@ -22,6 +24,9 @@ C:\Users\wanin\Desktop\API2\API2> .\.venv\Scripts\Activate.ps1
 (.venv) PS C:\Users\wanin\Desktop\API2\API2\ecommerce> python manage.py runserver
 
 (.venv) PS C:\Users\wanin\Desktop\API2\API2\ecommerce> cd ..
+
+
+The above code is to set-up django's project, and to set up the apps for access to the models where the relationships are defined.
 
 
 
